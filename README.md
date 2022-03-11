@@ -11,7 +11,7 @@ The ROS communication module operates on a customized TCPROS protocol within two
 ## Setting Up the Infrastructure
 
 ### Install ROS
-* [Windows](http://wiki.ros.org/Installation/Windows)
+* [Windows](http://wiki.ros.org/Installation/Windows) (not recommended due to many issues)
 * [ubuntu](http://wiki.ros.org/Installation/Ubuntu)
 ### Install Arduino IDE or Platformio on VSCode
 * install the ros_lib package
