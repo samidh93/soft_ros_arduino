@@ -32,16 +32,14 @@ to install ros on the the target os:
 * install ros_lib_arduino on arduino ide/ platformio 
 
 ## Upload code and setup hardware
-* upload code on src/main.cpp and make a simple setup with a button connected to PIN 8
+* upload code on src/main.cpp 
 
 ## Run Program
 
 * Start the ROS Master - roscore
 * Run rosserial client on the machine :
-    * rosrun rosserial_python serial_node.py /dev/tty<USB# or ACM#>
+    * rosrun rosserial_python serial_node.py /dev/ttyACM0 
 * The serial port is determined at run time for either ttyUSB or ttyACM. The exact port number can be found from the Arduino IDE or using: 
     * dmesg | grep tty.
-* Read published data returning if the button is pressed on the Arduino board or not: 
-    * rostopic echo button_press
-* Publish data to toggle the LED connected on the Arduino:
-    * rostopic pub toggle_led std_msgs/UInt16 "data: 0" The data is “0” to switch off the LED and “1” to switch on the LED.
+* Read published data: 
+    * rostopic echo Alignment
