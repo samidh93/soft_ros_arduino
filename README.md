@@ -42,7 +42,7 @@ to install ros on the the target os:
 * The serial port is determined at run time for either ttyUSB or ttyACM. The exact port number can be found from the Arduino IDE or using: 
     * dmesg | grep tty.
 * Read published data: 
-    * rostopic echo Alignment
+    * rostopic echo /topic
 
 ## Create catkin WS, ROS pkg and laucnh file
 

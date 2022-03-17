@@ -13,7 +13,7 @@ $ cd ~/catkin_ws/
 $ catkin_make
 $ source devel/setup.bash
 #or for permanent use
-$ echo "source ~/catkin_ws/devel/setup.bash">>~/bashrc
+$ echo "source ~/catkin_ws/devel/setup.bash">>~/.bashrc
 ~~~
 # ros package
 ~~~bash
@@ -25,5 +25,5 @@ copy folder [test_pkg](catkin_ws/src/test_pkg/scripts) folder following the same
 # launch file
 copy [launch](catkin_ws/src/test_pkg/launch) folder following the same path to your package.
 ~~~bash 
-roslaunch test_pkg test_alignment.launch 
+roslaunch test_pkg test.launch 
 ~~~
