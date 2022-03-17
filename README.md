@@ -43,3 +43,11 @@ to install ros on the the target os:
     * dmesg | grep tty.
 * Read published data: 
     * rostopic echo Alignment
+
+## Create catkin WS, ROS pkg and laucnh file
+
+please follow the readme file [ROS_PKG.md](ROS_PKG.md) to create:
+
+* catkin workspace
+* create a ros package 
+* create a launch file

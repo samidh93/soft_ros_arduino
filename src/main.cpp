@@ -35,8 +35,8 @@ void messageCb( const std_msgs::String& msg);
 
 Led LedBuiltIn(13);
 std_msgs::String pub_msg;
-ros::Subscriber<std_msgs::String> sub("alignment_commands", messageCb );
-ros::Publisher pub("alignment_retVal", &pub_msg);
+ros::Subscriber<std_msgs::String> sub("test_commands", messageCb );
+ros::Publisher pub("test_retVal", &pub_msg);
 
 void messageCb( const std_msgs::String& msg){
   if(strcmp(msg.data,"turn_on") == 0)
