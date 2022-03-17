@@ -27,3 +27,7 @@ copy [launch](catkin_ws/src/test_pkg/launch) folder following the same path to y
 ~~~bash 
 roslaunch test_pkg test.launch 
 ~~~
+
+## BONUS: rqt_graph
+
+![rqt_graph](rqt_graph.png)

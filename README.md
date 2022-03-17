@@ -51,3 +51,9 @@ please follow the readme file [ROS_PKG.md](ROS_PKG.md) to create:
 * catkin workspace
 * create a ros package 
 * create a launch file
+
+## BONUS: rqt_graph
+
+![rqt_graph](rqt_graph.png)
+
+## Demo Video
